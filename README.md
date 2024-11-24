@@ -125,3 +125,8 @@ services:
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
 # Ответы к заданию 5
+
+1. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-1.png)
+   ### Объяснение
+   Был запущен файл compose.yaml так как Docker Compose ищет по умолчанию файл compose.yaml или compose.yml
+2. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-2.png)
