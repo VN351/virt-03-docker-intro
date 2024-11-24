@@ -19,7 +19,7 @@
    - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 (ТОЛЬКО ЕСЛИ ЕСТЬ ДОСТУП).
    - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general.
 
-# Ответы к заданию 1
+# Ответ к заданию 1
 
 [Ссылка не репозиторий](https://hub.docker.com/repository/docker/venom3191/custom-nginx/general)
 
@@ -34,7 +34,7 @@
 4. Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
-# Ответы к заданию 2
+# Ответ к заданию 2
 
 ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-2.png)
 
@@ -54,5 +54,12 @@
 12. Удалите запущенный контейнер "custom-nginx-t2", не останавливая его.(воспользуйтесь --help или google)
 
 # Ответы к заданию 3
+
+1. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-1.png)
+2. 3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-2.png)
+   ### Объяснение
+      - Контейнеры Docker работают в изолированном окружении, и их жизненный цикл напрямую связан с основным процессом, запущенным внутри. Если основной процесс завершает работу (например, из-за получения сигнала SIGINT), контейнер также останавливается.
+4. 6. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-3.png)
+7. 
 
 
