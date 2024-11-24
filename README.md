@@ -56,10 +56,11 @@
 # Ответы к заданию 3
 
 1. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-1.png)
-3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-2.png)
+2. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-2.png)
    ### Объяснение
       - Контейнеры Docker работают в изолированном окружении, и их жизненный цикл напрямую связан с основным процессом, запущенным внутри. Если основной процесс завершает работу (например, из-за получения сигнала SIGINT), контейнер также останавливается.
-6. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-3.png)
-7. 
-
-
+3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-3.png)
+4. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-4.png)
+   ### Объяснение
+   Запрос вернёт ошибку, так как Nginx больше не слушает порт 80, а перенаправление порта 8080 всё ещё связано с портом 80 внутри контейнера.
+5. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-5.png)
