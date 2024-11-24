@@ -36,7 +36,7 @@
 
 # Ответы к заданию 2
 
-![alt text](https://github.com/VN351/virt-01-basics/raw/main/images/task-2.png)
+![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-2.png)
 
 # Задание 3
 
