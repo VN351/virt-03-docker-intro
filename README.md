@@ -56,7 +56,7 @@
 # Ответы к заданию 3
 
 1. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-1.png)
-2. 3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-2.png)
+2. - 3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-2.png)
    ### Объяснение
       - Контейнеры Docker работают в изолированном окружении, и их жизненный цикл напрямую связан с основным процессом, запущенным внутри. Если основной процесс завершает работу (например, из-за получения сигнала SIGINT), контейнер также останавливается.
 4. 6. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-3.png)
