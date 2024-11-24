@@ -62,5 +62,5 @@
 3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-3.png)
 4. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-4.png)
    ### Объяснение
-   Запрос вернёт ошибку, так как Nginx больше не слушает порт 80, а перенаправление порта 8080 всё ещё связано с портом 80 внутри контейнера.
+      - Запрос вернёт ошибку, так как Nginx больше не слушает порт 80, а перенаправление порта 8080 всё ещё связано с портом 80 внутри контейнера.
 5. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-3-5.png)
