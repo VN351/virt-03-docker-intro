@@ -130,3 +130,4 @@ services:
    ### Объяснение
    Был запущен файл compose.yaml так как Docker Compose ищет по умолчанию файл compose.yaml или compose.yml
 2. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-2.png)
+3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-3.png)
