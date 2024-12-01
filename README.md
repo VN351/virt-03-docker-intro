@@ -130,4 +130,22 @@ services:
    ### Объяснение
    Был запущен файл compose.yaml так как Docker Compose ищет по умолчанию файл compose.yaml или compose.yml
 2. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-2.png)
+   #### compose.yaml
+      ```
+      version: "3"
+      include:
+         - docker-compose.yaml
+      services:
+         portainer:
+            network_mode: host
+            image: portainer/portainer-ce:latest
+            volumes:
+               - /var/run/docker.sock:/var/run/docker.sock
+      ```
 3. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-3.png)
+4. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-4.png)
+5. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-5.png)
+6. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-6.png)
+   ### Объяснение
+      - Docker сообщает, что один из файлов отсутствует, и предлагает     удалить сервисы, связанные с этим файлом.
+7. ![alt text](https://github.com/VN351/virt-03-docker-intro/raw/main/images/task-5-7.png)   
